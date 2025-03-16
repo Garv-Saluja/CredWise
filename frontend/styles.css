@@ -1,0 +1,305 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+/* Navigation Bar */
+nav {
+    background: #004aad;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+.login-btn {
+    background: white;
+    color: #004aad;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    padding: 100px 20px;
+    background: linear-gradient(to right, #007bff, #004aad);
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.8em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background: white;
+    color: #007bff;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    background: #004aad;
+    color: white;
+}
+
+/* Services Section */
+.services {
+    padding: 50px;
+    background: white;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service-box {
+    padding: 20px;
+    width: 30%;
+    background: #e9ecef;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.service-box:hover {
+    background: #d6d8db;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background: #f8f9fa;
+    padding: 50px;
+    text-align: center;
+}
+
+.testimonial {
+    margin: 20px auto;
+    width: 50%;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial strong {
+    display: block;
+    margin-top: 10px;
+    color: #004aad;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Loan Application Page */
+.loan-container {
+    max-width: 500px;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.loan-container h2 {
+    text-align: center;
+    color: #004aad;
+}
+
+.loan-form input, 
+.loan-form select, 
+.loan-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.loan-form button {
+    width: 100%;
+    padding: 10px;
+    background: #004aad;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.loan-form button:hover {
+    background: #007bff;
+}
+
+/* Login Page */
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+    text-align: center;
+    color: #004aad;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background: #004aad;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-form button:hover {
+    background: #007bff;
+}
+
+/* Loans Page */
+.loans-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.loans-container h2 {
+    text-align: center;
+    color: #004aad;
+    margin-bottom: 20px;
+}
+
+.loan-option {
+    background: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.loan-option:hover {
+    background: #e0e0e0;
+}
+
+.loan-option h3 {
+    color: #004aad;
+    margin-bottom: 10px;
+}
+
+.loan-option p {
+    font-size: 1.1em;
+    color: #333;
+}
+
+.apply-btn {
+    display: inline-block;
+    background: #004aad;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.apply-btn:hover {
+    background: #007bff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .service-container {
+        flex-direction: column;
+    }
+
+    .service-box {
+        width: 90%;
+    }
+
+    .testimonial, .loans-container, .loan-container, .login-container {
+        width: 90%;
+    }
+}
